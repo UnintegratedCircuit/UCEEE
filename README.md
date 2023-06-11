@@ -33,3 +33,7 @@ This utility is NOT a professional piece of software, merely a project I have be
 
 ## Recovery:
 I strongly suggest saving all unsaved work before adjusting the clock frequency, just in case the system does crash. I have implemented hidden 'intermediate' frequency steps to make this utility as stable as possible, but overclocking (and underclocking) carry an inherent risk to system stability. If the system does lock up (usually with a completely garbled display), simply press and hold the power button until the machine shuts off, and then switch the machine on again as normal. If the system fails to respond to the power button after approximately 30 seconds or so, or if the screen remains blank when turning back on, simply unplug the AC adapter and remove the main battery (CMOS/BIOS/backup battery does not need to be removed) for a few seconds, reassemble/replug, and then switch on again as normal.
+
+# Changelog
+## v1.0.0
+This is the first release. Current capabilities allow over/underclocking between 1000MHz (1GHz) and 1800MHz (1.8GHz) in discrete steps of 200MHz. This is done manually, and the only feedback available to the user would be the use of an external program such as CPU-Z or HWMonitor. The user must manually ensure the system is reset to 1600MHz before putting the system to sleep. Utility resets CPU frequency to 1600MHz automatically upon exit.
