@@ -1,0 +1,25 @@
+OVERCLOCK COMBINATIONS
+~~~~~~~~~~~~~~~~~~~~~~
+
++---------------+---------------+---------------+-----------------------+---------------+
+| CPU Frequency | 0x8C Register | 0x8E Register | processor-throttle-ac | Script Number	|
++---------------+---------------+---------------+-----------------------+---------------+
+|     400MHz    |     0x33	|     0x18	|	"CONSTANT"	|	00	|
+| INTERMEDIATE	|     0x37	|     0x1A	|	"CONSTANT"	|	01/02	|
+| INTERMEDIATE	|     0x3B	|     0x1C	|	"CONSTANT"	|	03/04	|
+| INTERMEDIATE	|     0x43	|     0x20	|	"CONSTANT"	|	05/06	|
+|     600MHz    |     0x4B	|     0x24	|	"CONSTANT"	|	07/08	|
+|     800MHz    |     0x64      |     0x30      |	"CONSTANT"	|	09/10	|
+| INTERMEDIATE	|     0x4B	|     0x24	|	  "NONE"	|	11/12	|
+| INTERMEDIATE	|     0x43	|     0x20	|	  "NONE"	|	13/14	|
+|    1000MHz    |     0x3F	|     0x1E	|	  "NONE"	|	15/16	|	
+| INTERMEDIATE	|     0x43	|     0x20	|	  "NONE"	|	17/18	|
+|    1200MHz    |     0x4B	|     0x24	|	  "NONE"	|	19/20	|
+|    1400MHz    |     0x58	|     0x2B	|	  "NONE"	|	21/22	|
+|    1600MHz    |     0x64	|     0x30	|	  "NONE"	|	23/24	|
+| INTERMEDIATE  |     0x6F	|     0x34	|	  "NONE"	|	25/26	|
+|    1800MHz	|     0x70	|     0x34	|	  "NONE"	|	27	|
++---------------+---------------+---------------+-----------------------+---------------+
+
+Even numbers are used for 'clocking down' (reducing CPU frequency)
+Odd numbers are used for 'clocking up' (increasing CPU frequency)
