@@ -20,6 +20,3 @@ OVERCLOCK COMBINATIONS
 | INTERMEDIATE  |     0x6F	|     0x34	|	  "NONE"	|	25/26	|
 |    1800MHz	|     0x70	|     0x34	|	  "NONE"	|	27	|
 +---------------+---------------+---------------+-----------------------+---------------+
-
-Even numbers are used for 'clocking down' (reducing CPU frequency)
-Odd numbers are used for 'clocking up' (increasing CPU frequency)
