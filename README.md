@@ -35,6 +35,9 @@ This utility is NOT a professional piece of software, merely a project I have be
 I strongly suggest saving all unsaved work before adjusting the clock frequency, just in case the system does crash. I have implemented hidden 'intermediate' frequency steps to make this utility as stable as possible, but overclocking (and underclocking) carry an inherent risk to system stability. If the system does lock up (usually with a completely garbled display), simply press and hold the power button until the machine shuts off, and then switch the machine on again as normal. If the system fails to respond to the power button after approximately 30 seconds or so, or if the screen remains blank when turning back on, simply unplug the AC adapter and remove the main battery (CMOS/BIOS/backup battery does not need to be removed) for a few seconds, reassemble/replug, and then switch on again as normal.
 
 # Changelog
+## v1.2.0
+Updated to automatically return the CPU frequency (or rather, the FSB frequency) to one of the two 'safe' values when switching user, or when entering suspend (sleep). The program also automatically restores the clock speed to the previous value before switching user or resuming from suspend. In theory, the program also sets a 'safe' FSB clock when logging off and/or shutting down; however, this portion is untested.
+
 ## v1.1.0
 Updated to increase the range of underclocking: Total CPU frequency range is now 400MHz (0.4GHz) to 1800MHz (1.8GHz), again in discrete steps of 200MHz. RW Scripts have been tweaked slightly to maintain stability throughout the frequency range. Added CMD commands to adjust the AC and DC processor throttle value in powercfg (/processor-throttle-ac and /processor-throttle-dc, respectively) which is used to adjust core voltage (from 0.9V to 1.1V and vice versa) and CPU multiplier (from 6x to 12x and vice versa).
 
