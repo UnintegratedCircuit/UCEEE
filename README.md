@@ -15,7 +15,7 @@ This also requires a couple of settings to be tweaked in the BIOS. My machine is
  - Navigate to the `Advanced` tab in the BIOS menu (press `F2` on the splash screen to enter the BIOS menu);
  - Enter the `CPU Configuration` menu;
  - Set `Max CPUID Value Limit` to `Enabled`;
- - Set 'Intel(R) SpeedStep(tm) tech' to `Enabled`.
+ - Set `Intel(R) SpeedStep(tm) tech` to `Enabled`.
  - Press `F10` to exit and save changes.
 
 RW-Everything will require a suitable path environment variable to be created. This is a relatively simple procedure, and there are numerous tutorials online on how to achieve this. Should these become unavailable at any point (and/or when I get the motivation to include a full tutorial), I will put the instructions here.
